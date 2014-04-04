@@ -1,4 +1,7 @@
 def sqrt1(x):
+    '''
+      moudule details
+    '''
     s = 1.
     tol = 1.e-14
     for k in range(10000):
