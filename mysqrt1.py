@@ -8,4 +8,4 @@ def sqrt1(x):
         delta_s = s - s0
         if abs(delta_s / x) < tol:
             break
-    print "After %s iterations, s = %s" % (k, s)
+    print "After %s iterations, s = %s" % (k+1, s)
